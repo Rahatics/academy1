@@ -39,3 +39,12 @@ bootstrap/cache/*
 .vscode/
 *.swp
 *.swo
+
+# Large files
+*.zip
+*.rar
+*.7z
+*.tar.gz
+app.zip
+app1.zip
+saium-shilpigosthi.zip
