@@ -1,0 +1,41 @@
+# Laravel-specific files and directories
+/vendor/
+/node_modules/
+/.env
+.env.backup
+.phpunit.result.cache
+.php_cs.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log*
+yarn-error.log*
+.env.testing
+.php_cs
+.php_cs.dist
+.DS_Store
+Thumbs.db
+
+# Storage directories
+storage/
+!/storage/app/public/
+!/storage/app/public/.gitignore
+/storage/app/*
+!/storage/app/public/
+!/storage/app/public/.gitignore
+
+# Logs
+storage/logs/*.log
+*.log
+
+# Cache
+bootstrap/cache/*
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
